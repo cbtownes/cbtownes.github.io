@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* OC-test*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'source-sans-pro'sans-serif;
+    background: #fafafa;
+}
+
+
+h1, h2, h3 {
+	font-family: "source-sans-pro", sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #FFFFFF;
+    color: #5cb5e5;
+    transition: all 0.3s;
+	
+}
+
+#sidebar .sidebar-header {
+    padding-bottom: 20px;
+    background: #fff;
+	margin-top: 40px; 
+	
+}
+
+#sidebar ul li a {
+    padding-left: 30px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #FFFFFF;
+    background: #4a87bd;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #4a87bd;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 40px !important;
+    background: #e6e7e8;
+	
+}
+
+#logo{
+	padding: 30px;
+	margin-left: 15px;
+}
+
+#OC-title{
+	
+	 padding:30px;
+}
+
+
+
+
+a.download {
+    background: #c5af8d;
+    color: #FFFFFF;
+	
+}
+
+a.download2 {
+    background: #5cb5e5;
+    color: #FFFFFF;
+	
+}
+
+/*a.article {
+    background: #5cb5e5;
+    color: #FFFFFF;
+	
+}*/
+
+/*a.download,
+a.download:hover {
+    background: #c5af8d !important;
+    color: #fff !important;
+}*/
+
+
+a.article,
+a.article:hover {
+    background: #5cb5e5 !important;
+    color: #fff !important;
+}
+
+
+
+i .fas .fa-lock {
+	margin-right: 10px;
+}
+
+i .fas .fa-download {
+	margin-right: 10px;
+}
