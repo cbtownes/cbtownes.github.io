@@ -21,6 +21,62 @@ p {
     color: #999;
 }
 
+#content {
+	
+}
+
+
+#sidebarCollapse, .btn .btn-info {
+	z-index:999;
+	/*color: #fff;
+    background-color: #4a87bd;
+    border-color: #4a87bd; */
+	
+	color: #fff;
+    background-color: #4a87bd;
+    border: none;
+    margin-top: 5px;
+    margin-left: 5px;
+	border-radius: 2px; 
+	
+}
+
+/*button on pic*/
+
+
+
+
+/*button on pic end*/
+
+
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image:url("../images/oc-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	color: #FFFFFF;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.lead {
+	margin-bottom: 5px;
+	color: #FFFFFF;
+}
+
+.divide{
+	color: #fff;
+	
+}
+
+.description {
+	color: #fff;
+	font-size: 12px
+}
 
 #sidebar {
     width: 250px;
@@ -67,13 +123,15 @@ ul ul a {
 }
 
 #logo{
-	padding: 30px;
-	margin-left: 15px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #OC-title{
 	
-	 padding:30px;
+    text-align: center;
+	/*magin-top:10px;*/
 }
 
 
@@ -110,7 +168,21 @@ a.article:hover {
     color: #fff !important;
 }
 
+.lowBar {
+	background: #4a87bd; 
+	text-align: right;
+	font-size: 10px;
+	margin-top:auto;
+		color: #fff;
+}
 
+.lowBar a {
+	color: #fff;
+}
+
+.lowBar  p {
+	padding: 5px;
+}
 
 i .fas .fa-lock {
 	margin-right: 10px;
