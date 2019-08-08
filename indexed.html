@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>Open Cravat</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -29,61 +29,59 @@
         <nav id="sidebar">
             <div class="sidebar-header">
 				<img id="logo" alt="oc logo" src="images/OpenCRAVAT_Logo-0-sm.png"> 
-                <h3 id="OC-title">OPEN  CRAVAT</h3>
+                <h3 id="OC-title">OPEN CRAVAT</h3>
             </div>
 
             <ul class="list-unstyled components">
                
-               <li>
+               <li class="active">
                     <a href="#">Home</a>
                 </li>
 				
 				
-				 <li class="active">
+				 <li>
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">About Us</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Home 1</a>
+                            <a href="#">The Team</a>
                         </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
+                       
+                   </ul>
                 </li>
 				
 				
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Resources</a>
+                </li>
+				<li>
+                    <a href="#">Events</a>
+                </li>
+				<li>
+                    <a href="#">Annotators</a>
+                </li>
+				<li>
+                    <a href="#">FAQs</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                   <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Contact Us</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#">Page 1</a>
+                            <a href="#">Support</a>
                         </li>
                         <li>
-                            <a href="#">Page 2</a>
+                            <a href="#">Email Us</a>
                         </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
+                        
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                
+                
             </ul>
 
             <ul class="list-unstyled CTAs">
-                <li>
+                <!--li>
                     <a style="padding-left: 0px;" href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download"><i style="margin-right:10px;" class="fas fa-lock"></i>LOGIN</a>
-                </li>
+                </li-->
 				<li>
                     <a style="padding-left: 0px;" href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download2"><i style="margin-right:10px;" class="fas fa-download"></i>INSTALL</a>
                 </li>
@@ -184,9 +182,7 @@
                     </button>
 			</div-->
 			
-
 			
-<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">			
 <header class="masthead">
 	 <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <!--<i class="fas fa-align-left"></i>-->
@@ -194,10 +190,11 @@
                         <span></span>
                     </button>
 	
-  <div class="container h-100">
+  <!--<div class="container h-100">-->
+	   <div class="container h-100">
     <div class="row h-100 align-items-center">
       <div class="col-6 text-left">
-		  <h1 class="font-weight-bold">OPEN CRAVAT</h1>
+        <h1 class="font-weight-bold">OPEN CRAVAT</h1>
 		  <hr class="divide">
         <p class="lead">Open Custom Ranked Analysis of Variants Toolkit</p>
 		  <p class="description">An open source, scalable decision support framework with an extensive catalog of resources to support cancer driver variant and gene prioritization. Highly customizable, OpenCRAVAT does not expose protected data over the web and scales to very large datasets</p>
@@ -205,7 +202,7 @@
     </div>
   </div>
 </header>
-				
+			
 			<!--<div class="jumbotron-fluid">
 			
 			<img src="images/landing-image.png" alt="splash image" style="max-height: 100%; max-width: 100%;">
@@ -213,9 +210,10 @@
 			</div>
 			
 			
-			<!--Jumbotron ends--		
-		<!--	
-			<div class="container">
+			<!--Jumbotron ends-->
+		
+			
+			<!--div class="container">
 				<div class="col-12">
 					<h2>About Us</h2>
             <p>OpenCRAVAT is a new open source, scalable decision support system to support variant and gene prioritization. It offers a dynamic GUI, allowing users to easily, download tools from an extensive resource catalog, create customized pipelines, run jobs at speeds that exceed current variant annotation API services, and explore results in a richly detailed viewing environment.  OpenCRAVAT is distinguished from similar tools by the amount and diversity of data resources and computational prediction methods available, which span germline, somatic, common, rare, coding and non-coding variants.  We have designed the OpenCRAVAT resource catalog to be open and modular to maximize community and developer involvement, and as a result the catalog is being actively developed and growing larger every month. 
@@ -243,12 +241,22 @@
             <h3>Lorem Ipsum Dolor</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <!--/div-->
+		
 			
+			<footer class="lowBar">
+		<div class="container">
+		<p><a href="#">PRIVACY POLICY</a>&nbsp;  | &nbsp;  <a href="#">TERMS OF USE</a>
 			
+			</p>
 			
-	</div>			    
+			</div>
+			</footer>
+			
     </div>
-	</div>
+	
+	
+	
+	
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
