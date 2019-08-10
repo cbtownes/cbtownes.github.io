@@ -21,8 +21,14 @@ p {
     color: #999;
 }
 
-#content {
-	
+#content2 {
+	width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 
@@ -50,11 +56,23 @@ p {
 
 
 
+.mastheadHome {
+  height: 100vh;
+  min-height: 500px;
+  background-image:url("../images/oc-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	color: #FFFFFF;
+	max-height: 100%;
+	max-width: 100%;
+}
+
 
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image:url("../images/oc-background.jpg");
+  /*background-image:url("../images/oc-background.jpg");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
