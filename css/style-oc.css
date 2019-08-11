@@ -3,6 +3,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap');
 
+
+.full-height{
+	max-height: 100%;
+}
+
 body {
     font-family: 'source-sans-pro'sans-serif;
     background: #fafafa;
@@ -22,13 +27,28 @@ p {
 }
 
 #content2 {
-	width: calc(100% - 250px);
+	/*new*/
+	    /* width: calc(100% - 250px); */
+    padding: 0px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    /* position: absolute; */
+    /*top: 0;
+    right: 0;*/
+    background-image: url(../images/oc-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	/*old*/
+	/*width: calc(100% - 250px);
     padding: 40px;
     min-height: 100vh;
     transition: all 0.3s;
-    position: absolute;
-    top: 0;
+    /*position: absolute;*/
+    /*top: 0;
     right: 0;
+	background-image:url("../images/oc-background.jpg");
+	background-repeat: no-repeat;*/
 }
 
 
@@ -37,12 +57,12 @@ p {
 	/*color: #fff;
     background-color: #4a87bd;
     border-color: #4a87bd; */
-	
+	position: absolute;
 	color: #fff;
     background-color: #4a87bd;
     border: none;
-    margin-top: 5px;
-    margin-left: 5px;
+    /*margin-top: 5px;
+    margin-left: 5px;*/
 	border-radius: 2px; 
 	
 }
@@ -56,7 +76,7 @@ p {
 
 
 
-.mastheadHome {
+/*.mastheadHome {
   height: 100vh;
   min-height: 500px;
   background-image:url("../images/oc-background.jpg");
@@ -66,8 +86,21 @@ p {
 	color: #FFFFFF;
 	max-height: 100%;
 	max-width: 100%;
+}*/
+
+
+.body-bkg{
+	background-image:url("../images/oc-background.jpg");
+	
+	
 }
 
+
+.font-weight-bold, h1{
+	color: #FFFFFF;
+	font-size: 70px;
+	
+}
 
 .masthead {
   height: 100vh;
@@ -84,16 +117,18 @@ p {
 .lead {
 	margin-bottom: 5px;
 	color: #FFFFFF;
+	font-weight: bold;
+    font-family: roboto-bold;
 }
 
-.divide{
-	color: #fff;
+.divide {
+	background-color: #fff;
 	
 }
 
 .description {
 	color: #fff;
-	font-size: 12px
+	font-size: 14px
 }
 
 #sidebar {
@@ -186,6 +221,10 @@ a.download:hover {
     color: #fff !important;
 }*/
 
+.center200{
+	padding-top: 20vh;
+}
+
 
 a.article,
 a.article:hover {
@@ -193,12 +232,16 @@ a.article:hover {
     color: #fff !important;
 }
 
+
+
 .lowBar {
 	background: #4a87bd; 
 	text-align: right;
 	font-size: 10px;
 	margin-top:auto;
 		color: #fff;
+	flex-shrink: 0;
+	
 }
 
 .lowBar a {
@@ -207,6 +250,7 @@ a.article:hover {
 
 .lowBar  p {
 	padding: 5px;
+	margin-bottom:0px;
 }
 
 i .fas .fa-lock {
