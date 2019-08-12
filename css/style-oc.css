@@ -52,6 +52,32 @@ p {
 }
 
 
+#content3 {
+	/*new*/
+	    /* width: calc(100% - 250px); */
+    padding: 0px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    /* position: absolute; */
+    /*top: 0;
+    right: 0;*/
+    /*background-image: url(../images/oc-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+	
+	/*old*/
+	/*width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    /*position: absolute;*/
+    /*top: 0;
+    right: 0;
+	background-image:url("../images/oc-background.jpg");
+	background-repeat: no-repeat;*/
+}
+
+
 #sidebarCollapse, .btn .btn-info {
 	z-index:999;
 	/*color: #fff;
