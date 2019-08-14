@@ -26,6 +26,11 @@ p {
     color: #999;
 }
 
+.logoHover {
+    opacity: 1.00;
+    transition: 0.5s ease-in-out;
+}
+
 #content2 {
 	/*new*/
 	    /* width: calc(100% - 250px); */
@@ -286,3 +291,8 @@ i .fas .fa-lock {
 i .fas .fa-download {
 	margin-right: 10px;
 }
+
+
+/*About Us page styles*/
+
+
