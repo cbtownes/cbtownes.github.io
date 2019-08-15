@@ -26,6 +26,14 @@ p {
     color: #999;
 }
 
+.whiteType{
+	font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #FFFFFF;
+}
+
 .logoHover {
     opacity: 1.00;
     transition: 0.5s ease-in-out;
@@ -149,7 +157,7 @@ p {
 	margin-bottom: 5px;
 	color: #FFFFFF;
 	font-weight: bold;
-    font-family: roboto-bold;
+    font-family: roboto, sans-serif;
 }
 
 .divide {
@@ -253,7 +261,7 @@ a.download:hover {
 }*/
 
 .center200{
-	padding-top: 20vh;
+	padding-top: 10vh;
 }
 
 
@@ -296,3 +304,14 @@ i .fas .fa-download {
 /*About Us page styles*/
 
 
+.about {
+	background-image: url(../images/oc-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	    max-width: 100%;
+    border-radius: 0px;
+	padding-left: 5vh;
+  /*  padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 160px;*/
+}
