@@ -241,6 +241,11 @@ a.download2 {
 	
 }
 
+.download2{
+	 background: #5cb5e5;
+    color: #FFFFFF;
+}
+
 /*a.download2 {
     background: #fff;
     color: #5cb5e5;
@@ -332,4 +337,33 @@ h2.display-4 {
 	
 }
 
+.linked2:hover {
+	text-decoration: none;
+	background-color: none;
+	color: #5cb5e5;
 	
+}
+
+.linked img:hover {
+	text-decoration: none;
+	background-color: #5cb5e5;
+	color: #fff;
+	
+}
+
+/*Event page styles*/	
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.titleHead {
+	font-size:1.4em;
+	color: #4a87bd;
+}
+
+.eventBody{
+	padding-top: 0rem;
+	font-size: 1em;
+}
